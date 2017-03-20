@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{5273972b-5a6e-4682-ba4f-392a861ff290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{5eeab5d3-4d8f-467d-91f3-413fae46b5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network\unix">
+      <UniqueIdentifier>{cae2f6d5-cf11-4968-92b5-e1cda4fb90dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network\windows">
+      <UniqueIdentifier>{d7e2a564-887a-4f5d-8aa3-cf979d8abc9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tacopie">
+      <UniqueIdentifier>{ed316dd5-0ff9-4568-a355-e8112b4c9c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tacopie\network">
+      <UniqueIdentifier>{a44857f2-66cc-494c-9512-d6d7385114d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tacopie\utils">
+      <UniqueIdentifier>{a6d1f782-e099-4352-81cf-3757d7737023}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tacopie\error.hpp">
+      <Filter>Header Files\tacopie</Filter>
+    </ClInclude>
+    <ClInclude Include="tacopie\logger.hpp">
+      <Filter>Header Files\tacopie</Filter>
+    </ClInclude>
+    <ClInclude Include="tacopie\typedefs.hpp">
+      <Filter>Header Files\tacopie</Filter>
+    </ClInclude>
+    <ClInclude Include="tacopie\network\io_service.hpp">
+      <Filter>Header Files\tacopie\network</Filter>
+    </ClInclude>
+    <ClInclude Include="tacopie\network\self_pipe.hpp">
+      <Filter>Header Files\tacopie\network</Filter>
+    </ClInclude>
+    <ClInclude Include="tacopie\network\tcp_client.hpp">
+      <Filter>Header Files\tacopie\network</Filter>
+    </ClInclude>
+    <ClInclude Include="tacopie\network\tcp_server.hpp">
+      <Filter>Header Files\tacopie\network</Filter>
+    </ClInclude>
+    <ClInclude Include="tacopie\network\tcp_socket.hpp">
+      <Filter>Header Files\tacopie\network</Filter>
+    </ClInclude>
+    <ClInclude Include="tacopie\utils\thread_pool.hpp">
+      <Filter>Header Files\tacopie\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\network\unix\io_service.cpp">
+      <Filter>Source Files\network\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\unix\self_pipe.cpp">
+      <Filter>Source Files\network\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\unix\tcp_socket.cpp">
+      <Filter>Source Files\network\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\windows\io_service.cpp">
+      <Filter>Source Files\network\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\windows\self_pipe.cpp">
+      <Filter>Source Files\network\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\windows\tcp_socket.cpp">
+      <Filter>Source Files\network\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\tcp_client.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\tcp_server.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\thread_pool.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
